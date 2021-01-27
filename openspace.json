@@ -19,7 +19,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"https:\/\/github.com\/Solweigdev\/bundlehq\/blob\/gh-pages\/musique.mp3"
+                 "value":"https:\/\/interactive-examples.mdn.mozilla.net\/media\/cc0-audio\/t-rex-roar.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
