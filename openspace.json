@@ -49,7 +49,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/www.chess.com\/"
+                 "value":"https:\/\/lichess.org\/"
                 }],
          "type":"tilelayer",
          "visible":true,
