@@ -37,7 +37,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/www.pizzapai.fr\/"
+                 "value":"https:\/\/www.ubereats.com\/fr"
                 }],
          "type":"tilelayer",
          "visible":true,
