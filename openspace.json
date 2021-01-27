@@ -19,7 +19,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/www.dominos.fr\/"
+                 "value":"https:\/\/www.thecodingmachine.com\/bienvenue-chez-the-coding-machine\/"
                 }],
          "type":"tilelayer",
          "visible":true,
