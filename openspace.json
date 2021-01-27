@@ -19,7 +19,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"openspace-bundlemeeting"
+                 "value":"global-bundlemeeting"
                 }],
          "type":"tilelayer",
          "visible":true,
