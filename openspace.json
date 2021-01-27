@@ -49,7 +49,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"http:\/\/chess.com\/"
+                 "value":"https:\/\/www.chess.com\/"
                 }],
          "type":"tilelayer",
          "visible":true,
