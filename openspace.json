@@ -19,7 +19,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"https:\/\/interactive-examples.mdn.mozilla.net\/media\/cc0-audio\/t-rex-roar.mp3"
+                 "value":"musique.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
