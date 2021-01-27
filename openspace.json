@@ -15,6 +15,12 @@
          "id":14,
          "name":"website",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"openWebsite",
+                 "type":"string",
+                 "value":"https:\/\/www.dominos.fr\/"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":30,
