@@ -19,7 +19,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"musique.mp3"
+                 "value":"musique2.mp3;musique.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
