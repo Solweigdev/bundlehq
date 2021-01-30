@@ -19,7 +19,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"musique2.mp3"
+                 "value":"http:\/\/206.189.217.241:8000\/radio.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
