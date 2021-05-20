@@ -6,7 +6,7 @@ WA.onChatMessage((message => {
     	
     	WA.onChatMessage((message => {
     		if (message === 'oui') {
-    			WA.sendChatMessage('Voila pour toi !', 'Mr Bundle');
+    			WA.sendChatMessage('Voila pour toi', 'Mr Bundle');
     			WA.openTab('https://www.dominos.fr/');
     		} else {
     			WA.sendChatMessage('T en pis !', 'Mr Bundle');
@@ -16,3 +16,15 @@ WA.onChatMessage((message => {
     	WA.sendChatMessage('Je ne comprend pas', 'Mr Bundle');
     }
 }));
+
+WA.onEnterZone('myZone', () => {
+	WA.disablePlayerControls();
+	WA.openPopup("messagedavid", 'David tu dois faire les maquettes', ({
+		label: "Ok",
+		className: "primary",
+		callback: (popup) => {
+			WA.restorePlayerControls();
+			popup.close();
+		}
+	})
+})
