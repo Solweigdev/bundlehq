@@ -1,4 +1,4 @@
-WA.sendChatMessage('Bonjour', 'Mr Bundle');
+/* WA.sendChatMessage('Bonjour', 'Mr Bundle');
 
 WA.onChatMessage((message => {
     if (message === 'bonjour') {
@@ -15,14 +15,15 @@ WA.onChatMessage((message => {
     } else {
     	WA.sendChatMessage('Je ne comprend pas', 'Mr Bundle');
     }
-}));
+})); */
+
 
 WA.onEnterZone('myZone', () => {
-	WA.openPopup("poo", 'David tu dois faire les maquettes', [{
-		label: "Ok",
-		className: "primary",
-		callback: (popup) => {
-			popup.close();
-		}
-	}])
-})
+    WA.openPopup("testpopup", 'David tu dois faire les maquettes', [{
+        label: "Ok",
+        className: "primary",
+        callback: (popup) => {
+            popup.close();
+        }
+    });
+}]);
