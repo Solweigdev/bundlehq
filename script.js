@@ -25,5 +25,5 @@ WA.onEnterZone('myZone', () => {
         callback: (popup) => {
             popup.close();
         }
-    });
+    }]);
 }]);
