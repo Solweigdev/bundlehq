@@ -26,5 +26,5 @@ WA.onEnterZone('myZone', () => {
 			WA.restorePlayerControls();
 			popup.close();
 		}
-	})
+	}))
 })
