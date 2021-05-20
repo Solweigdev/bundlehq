@@ -16,15 +16,3 @@ WA.onChatMessage((message => {
     	WA.sendChatMessage('Je ne comprend pas', 'Mr Bundle');
     }
 }));
-
-WA.onEnterZone('myZone', () => {
-	WA.disablePlayerControls();
-	WA.openPopup("messagedavid", 'David tu dois faire les maquettes', ({
-		label: "Ok",
-		className: "primary",
-		callback: (popup) => {
-			WA.restorePlayerControls();
-			popup.close();
-		}
-	})
-})
