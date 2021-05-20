@@ -26,4 +26,4 @@ WA.onEnterZone('myZone', () => {
             popup.close();
         }
     }]);
-}]);
+});
