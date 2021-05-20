@@ -18,11 +18,11 @@ WA.onChatMessage((message => {
 }));
 
 WA.onEnterZone('myZone', () => {
-	WA.openPopup("messagedavid", 'David tu dois faire les maquettes', ({
+	WA.openPopup("messagedavid", 'David tu dois faire les maquettes', [{
 		label: "Ok",
 		className: "primary",
 		callback: (popup) => {
 			popup.close();
 		}
-	}))
+	}])
 })
