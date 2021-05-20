@@ -11,7 +11,7 @@ WA.onChatMessage((message => {
     		} else {
     			WA.sendChatMessage('T en pis !', 'Mr Bundle');
     		}
-    	}
+    	}))
     } else {
     	WA.sendChatMessage('Je ne comprend pas', 'Mr Bundle');
     }
