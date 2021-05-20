@@ -18,12 +18,10 @@ WA.onChatMessage((message => {
 }));
 
 WA.onEnterZone('myZone', () => {
-	WA.disablePlayerControls();
 	WA.openPopup("messagedavid", 'David tu dois faire les maquettes', ({
 		label: "Ok",
 		className: "primary",
 		callback: (popup) => {
-			WA.restorePlayerControls();
 			popup.close();
 		}
 	}))
